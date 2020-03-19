@@ -49,6 +49,8 @@ uint32_t  USART_CR2; //0x10 Control register 2
 uint32_t USART_CR3; //0x14 Control register 3
 uint32_t USART_GTPR ; //0x18 Guard time and prescaler register
 }USART_S;
+ 
+
 
 
 
