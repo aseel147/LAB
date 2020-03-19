@@ -38,6 +38,17 @@ uint32_t GPIOx_BSRR; //0x10ort bit set/reset register
 uint32_t GPIOx_BRR; //0x14 Port bit reset register
 uint32_t GPIOx_LCKR; //0x18Port configuration lock register 
 }GPIO_S;
+//manual 27.6.1
+typdef struct{
+//manual 9.2
+uint32_t USART_SR; //0x00 Status register
+uint32_t USART_DR; //0x04 Data register 
+uint32_t USART_BRR; //0x08 Baud rate register
+uint32_t USART_CR1; //0x0c Control register 1
+uint32_t  USART_CR2; //0x10 Control register 2
+uint32_t USART_CR3; //0x14 Control register 3
+uint32_t USART_GTPR ; //0x18 Guard time and prescaler register
+}USART_S;
 
 
 
